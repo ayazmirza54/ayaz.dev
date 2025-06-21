@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Connection';
+  src: url('../public/fonts/Connection-arMJ.otf') format('opentype'); /* Update with your actual font file name */
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  margin: 1rem; /* Smaller margin for mobile */
+  background-color: #17181c;
+  border: 2px solid #878787;
+  
+}
+
+.hero{
+  font-family: 'Connection', sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+
+}
+body{
+  background-color: #17181c;
+  border: 2px solid #878787;
+  background-color: #17181c;
+  
+}
+.navbar{
+  font-family: 'Connection', sans-serif;
+  border-top: 2px solid #878787;
+  padding: 20px 20px;
+}
+.download{
+  font-family: 'Connection', sans-serif;
+  
+}
+.download:hover{
+  color: #838383;
+  cursor: pointer;
+  text-decoration: underline;
+
+}
+main{
+  font-size: 1rem;
+  font-family: 'Connection', sans-serif;
+  word-spacing: 2px;
+  letter-spacing: 1px; /* Reduced for mobile */
+  margin-left: 0; /* Remove left margin for mobile */
+  list-style-type: disc;
+  -moz-text-decoration-color: #878787;
+  -webkit-text-decoration-color: #878787;
+  -ms-text-decoration-color: #878787;
+  -o-text-decoration-color: #878787;
+  text-decoration-color: #878787;
+  color: #878787;
+  padding-top: 20px;
+  padding-left: 20px; /* Add some padding for the list */
+  
+}
+ul>li::marker{
+  color: #878787;
+ 
+}
+
+/* Apply desktop styles only on larger screens */
+@media (min-width: 768px) {
+  body {
+    margin: 50px 100px;
+  }
+  .hero {
+    margin-left: 40px;
+  }
+  main {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-left: 40px;
+    padding-left: 0;
+  }
+
+}
