@@ -27,8 +27,8 @@ function App() {
       <div className="container bg-[#17181c]">
         <header> <div className="flex flex-col">
           <div>&nbsp;</div>
-          <div className="text-white site-title mx-4 hero p-[10px] md:p-[20px] border-[#565f89] border-b border-[#565f89] self-center md:self-center">ayaz.info</div>
-          <div className='text-white subtext mx-4 p-[10px] md:p-[20px] border-[#565f89] text-center'>Senior Consultant, Wipro Ltd.</div>
+          <div className="text-white site-title mx-4 hero p-[10px] md:p-[20px] border-white border-b border-white self-center md:self-center">ayaz.info</div>
+          <div className='text-white subtext mx-4 p-[10px] md:p-[20px] border-white text-center'>Senior Consultant, Wipro Ltd.</div>
           <div className="text-white subtext p-[10px] md:p-[20px] self-start md:self-center">Lucknow, IND</div>
           <br></br>
         </div>
@@ -42,7 +42,7 @@ function App() {
         </header>
         <main>
           <div className="flex flex-col items-start p-5 md:p-[40px] text-white">
-            <ul className="list-disc marker:text-white pl-5 text-base md:text-lg">
+            <ul className="list-disc marker:text-white pl-5 pb-10 text-base md:text-lg">
               <li>Senior DevOps Engineer at Wipro with 5 years' experience in the telecom sector</li>
               <li>Proficient in Ansible, shell scripting, AWS, Prometheus &amp; Grafana</li>
               <li>Creator of AI-powered tools (Gen-a-Email, AnsibleBot, CurlBot)</li>
