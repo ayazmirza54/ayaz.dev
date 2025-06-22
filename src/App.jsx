@@ -25,7 +25,7 @@ function App() {
       <div className="container bg-[#17181c]">
         <header> <div className="flex flex-col items-start">
           <div>&nbsp;</div>
-          <div className="text-white text-3xl md:text-4xl mx-4 hero p-[10px] md:p-[20px] border-white border-b border-white self-center md:self-start">ayaz.info</div>
+          <div className="text-white text-2xl md:text-3xl mx-4 hero p-[10px] md:p-[20px] border-white border-b border-white self-center md:self-start">ayaz.info</div>
           <br></br>
         </div>
           <div className="flex flex-col items-start nav">
