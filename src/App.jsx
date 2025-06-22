@@ -42,7 +42,7 @@ function App() {
         </header>
         <main>
           <div className="flex flex-col items-start p-5 md:p-[40px] text-white">
-            <ul className="list-disc marker:text-white pl-5 text-base md:text-lg">
+            <ul className="list-disc marker:text-white pl-5 pb-10 text-base md:text-lg">
               <li>Senior DevOps Engineer at Wipro with 5 years' experience in the telecom sector</li>
               <li>Proficient in Ansible, shell scripting, AWS, Prometheus &amp; Grafana</li>
               <li>Creator of AI-powered tools (Gen-a-Email, AnsibleBot, CurlBot)</li>
