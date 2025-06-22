@@ -27,16 +27,16 @@ function App() {
       <div className="container bg-[#17181c]">
         <header> <div className="flex flex-col">
           <div>&nbsp;</div>
-          <div className="text-white site-title mx-4 hero p-[10px] md:p-[20px] border-white border-b border-white self-center md:self-center">ayaz.info</div>
-          <div className='text-white subtext mx-4 p-[10px] md:p-[20px] border-white text-center'>Senior Consultant, Wipro Ltd.</div>
+          <div className="text-white site-title mx-4 hero p-[10px] md:p-[20px] border-[#565f89] border-b border-[#565f89] self-center md:self-center">ayaz.info</div>
+          <div className='text-white subtext mx-4 p-[10px] md:p-[20px] border-[#565f89] text-center'>Senior Consultant, Wipro Ltd.</div>
           <div className="text-white subtext p-[10px] md:p-[20px] self-start md:self-center">Lucknow, IND</div>
           <br></br>
         </div>
 
           <div className="flex flex-col items-start nav">
-            <div className="flex flex-col md:flex-row justify-between border border-white w-[100%] md:h-[100px] justify-center items-center">
-              <div className="text-white flex navbar text-center text-xl lg:text-2xl font-mono w-full md:w-1/3 md:h-[100%] justify-center items-center p-4 border-b md:border-b-0 md:border-r border-white"><a href="https://linkedin.com/in/ayazmirza54" target='_blank' className='text-white flex justity-center items-center download decoration-none  text-center text-xl lg:text-2xl font-mono'>Linkedin&nbsp;<Linkedin></Linkedin></a></div>
-              <div className="text-white flex navbar text-center text-xl lg:text-2xl font-mono w-full md:w-1/3 md:h-[100%] justify-center items-center p-4 border-b md:border-b-0 md:border-r border-white"><a onClick={handleDownload} className="text-white flex download decoration-none  text-center text-xl lg:text-2xl font-mono justity-center items-center">download resume &nbsp; <FileDown /></a></div>
+            <div className="flex flex-col md:flex-row justify-between border border-[#565f89] w-[100%] md:h-[100px] justify-center items-center">
+              <div className="text-white flex navbar text-center text-xl lg:text-2xl font-mono w-full md:w-1/3 md:h-[100%] justify-center items-center p-4 border-b md:border-b-0 md:border-r border-[#565f89]"><a href="https://linkedin.com/in/ayazmirza54" target='_blank' className='text-white flex justity-center items-center download decoration-none  text-center text-xl lg:text-2xl font-mono'>Linkedin&nbsp;<Linkedin></Linkedin></a></div>
+              <div className="text-white flex navbar text-center text-xl lg:text-2xl font-mono w-full md:w-1/3 md:h-[100%] justify-center items-center p-4 border-b md:border-b-0 md:border-r border-[#565f89]"><a onClick={handleDownload} className="text-white flex download decoration-none  text-center text-xl lg:text-2xl font-mono justity-center items-center">download resume &nbsp; <FileDown /></a></div>
               <div className="text-white flex navbar text-center text-xl lg:text-2xl font-mono w-full md:w-1/3 md:h-[100%] justify-center items-center p-4"><a href="https://github.com/ayazmirza54" target='_blank' className='text-white flex justity-center items-center download decoration-none  text-center text-xl lg:text-2xl font-mono'>Github&nbsp;<Github></Github></a></div>
             </div></div>
         </header>

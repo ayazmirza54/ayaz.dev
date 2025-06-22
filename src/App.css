@@ -13,21 +13,19 @@ body{
   margin: 1rem; /* Smaller margin for mobile */
   background-color: #1a1b26;
   border: 2px solid #565f89;
+  font-family: 'Connection', sans-serif;
   
 }
 
 .hero{
-  font-family: 'Connection', sans-serif;
-  font-size: 60px;
+  font-size: 40px; /* Adjusted for mobile */
   font-weight: 900;
-
 }
 .site-title {
   color: #bb9af7;
 }
 .subtext{
-  font-family: 'Connection', sans-serif;
-  font-size: 25px;
+  font-size: 20px; /* Adjusted for mobile */
   font-weight: 900;
   color: #565f89;
 }
@@ -38,9 +36,8 @@ body{
   
 }
 .navbar{
-  font-family: 'Connection', sans-serif;
   border-top: 2px solid #565f89;
-  padding: 20px 20px;
+  padding: 20px;
 }
 .download{
   font-family: 'Connection', sans-serif;
@@ -52,38 +49,28 @@ body{
   text-decoration: underline;
 
 }
+main, .projects{
+  font-size: 1rem;
+  word-spacing: 2px;
+  letter-spacing: 0.5px; /* Adjusted for mobile */
+  list-style-type: disc;
+  -moz-text-decoration-color: #565f89;
+  -webkit-text-decoration-color: #565f89;
+  -ms-text-decoration-color: #565f89;
+  -o-text-decoration-color: #565f89;
+  text-decoration-color: #565f89;
+  padding: 20px 0px 20px 25px; /* Consistent padding */
+}
+
 main{
-  font-size: 1rem;
-  font-family: 'Connection', sans-serif;
-  word-spacing: 2px;
-  letter-spacing: 1px; /* Reduced for mobile */
-  margin-left: 0; /* Remove left margin for mobile */
-  list-style-type: disc;
-  -moz-text-decoration-color: #565f89;
-  -webkit-text-decoration-color: #565f89;
-  -ms-text-decoration-color: #565f89;
-  -o-text-decoration-color: #565f89;
-  text-decoration-color: #565f89;
   color: #a9b1d6;
-  padding-top: 20px;
-  padding-left: 40px; /* Add some padding for the list */
-  
 }
+
 .projects{
-  font-size: 1rem;
-  font-family: 'Connection', sans-serif;
-  word-spacing: 2px;
-  letter-spacing: 1px; /* Reduced for mobile */
-  margin-left: 0; /* Remove left margin for mobile */
-  list-style-type: disc;
-  -moz-text-decoration-color: #565f89;
-  -webkit-text-decoration-color: #565f89;
-  -ms-text-decoration-color: #565f89;
-  -o-text-decoration-color: #565f89;
-  text-decoration-color: #565f89;
   color: #c0caf5;
-  padding: 20px 0px 0px 20px;
+  padding-left: 25px;
 }
+
 ul>li::marker{
   color: #565f89;
  
@@ -93,9 +80,15 @@ ul>li::marker{
 @media (min-width: 768px) {
   body {
     margin: 50px 100px;
-
-    margin-left: 40px;
-t: 0;
   }
-
+  .hero{
+    font-size: 60px;
+  }
+  .subtext{
+    font-size: 25px;
+  }
+  main, .projects{
+    letter-spacing: 1px;
+    padding-left: 40px;
+  }
 }
