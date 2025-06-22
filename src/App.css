@@ -22,6 +22,12 @@ body{
   font-weight: 900;
 
 }
+.subtext{
+  font-family: 'Connection', sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  color: #878787;
+}
 body{
   background-color: #17181c;
   border: 2px solid #878787;
@@ -57,8 +63,23 @@ main{
   text-decoration-color: #878787;
   color: #878787;
   padding-top: 20px;
-  padding-left: 20px; /* Add some padding for the list */
+  padding-left: 40px; /* Add some padding for the list */
   
+}
+.projects{
+  font-size: 1rem;
+  font-family: 'Connection', sans-serif;
+  word-spacing: 2px;
+  letter-spacing: 1px; /* Reduced for mobile */
+  margin-left: 0; /* Remove left margin for mobile */
+  list-style-type: disc;
+  -moz-text-decoration-color: #878787;
+  -webkit-text-decoration-color: #878787;
+  -ms-text-decoration-color: #878787;
+  -o-text-decoration-color: #878787;
+  text-decoration-color: #878787;
+  color: #ffffff;
+  padding: 20px 0px 0px 20px;
 }
 ul>li::marker{
   color: #878787;
@@ -69,15 +90,9 @@ ul>li::marker{
 @media (min-width: 768px) {
   body {
     margin: 50px 100px;
-  }
-  .hero {
+
     margin-left: 40px;
-  }
-  main {
-    font-size: 20px;
-    letter-spacing: 2px;
-    margin-left: 40px;
-    padding-left: 0;
+t: 0;
   }
 
 }
