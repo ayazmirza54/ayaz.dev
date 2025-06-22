@@ -75,7 +75,12 @@ ul>li::marker{
   color: #565f89;
  
 }
+@media (max-width: 768px) {
+  main{
+    padding-bottom: 20px;
+  }
 
+}
 /* Apply desktop styles only on larger screens */
 @media (min-width: 768px) {
   body {
