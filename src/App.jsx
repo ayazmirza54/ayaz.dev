@@ -44,14 +44,14 @@ function App() {
         <main>
           <div className="flex flex-col items-start p-5 md:p-[40px] text-white">
             <ul className="list-disc marker:text-white pl-5 pb-10 text-base md:text-lg">
-              <li>Senior DevOps Engineer at Wipro with 5 years' experience in the telecom sector</li>
+              <li>Senior Consultant at Wipro with 5 years' experience in the telecom sector</li>
               <li>Proficient in Ansible, shell scripting, AWS, Prometheus &amp; Grafana</li>
               <li>Creator of AI-powered tools (Gen-a-Email, AnsibleBot, CurlBot)</li>
               <li>Developed a Python TUI EC2 manager and one-click CI/CD pipelines</li>
               <li>Full-stack web developer using React (frontend) &amp; Express (backend)</li>
-              <li>Integrates AI models (Gemini, Claude, ChatGPT) to automate workflows</li>
-              <li>Founder of AI Gadgets Marketplace (<a href="https://aigadgets.show/">aigadgets.show</a>)</li>
-              <li>Content creator on "The Weekend Coder" YouTube channel</li>
+              <li>Integrated GenAI applications (Gemini, Claude, ChatGPT) to automate workflows and streamline processes</li>
+              <li>Built an AI Gadgets Marketplace (<a href="https://aigadgets.show/">aigadgets.show</a>)</li>
+             
 
 
             </ul>
