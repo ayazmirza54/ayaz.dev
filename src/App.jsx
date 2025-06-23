@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { FileDown, Github, Linkedin } from 'lucide-react'
 import CVdownload from './Components/CVdownload'
+import { FaDev } from 'react-icons/fa6'
 
 function App() {
 
@@ -43,7 +44,7 @@ function App() {
         </header>
         <main>
           <div className="flex flex-col items-start p-5 md:p-[40px] text-white">
-          <div className="text-white text-2xl md:text-3xl p-[10px] md:p-[20px] text-center">About my tech expertise</div><br/><br/>
+          <div className="text-white text-2xl md:text-3xl p-[10px] md:p-[20px] text-center"><FaDev/>About my tech expertise</div><br/>
             <ul className="list-disc marker:text-white pl-5 pb-10 text-base md:text-lg">
               <li>Senior Consultant at Wipro with 5 years' experience of ETL development using Ab Initio ETL tool serving a top Indonesian client in the telecom sector</li>
               <li>Proficient in cloud tech like AWS, GCP</li>
