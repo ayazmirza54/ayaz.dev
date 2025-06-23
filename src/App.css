@@ -35,6 +35,9 @@ body{
   background-color: #1a1b26;
   
 }
+.subtitle{
+  font-size: xx-large;
+}
 .navbar{
   border-top: 2px solid #565f89;
   padding: 20px;
