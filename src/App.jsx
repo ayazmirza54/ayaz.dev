@@ -39,8 +39,13 @@ function App() {
             </div></div>
         </header>
         <main>
-          <div className="flex flex-col items-start p-5 md:p-[40px] text-white">
-          <div className=" flex text-white text-2xl md:text-3xl p-[10px] md:p-[20px] justify-center align-center"><FaDev className='sm:inline-block align-text-top'/>&nbsp;About my tech expertise</div><br/>
+          <div className="flex flex-col justify-center items-center p-5 md:p-[40px] text-white">
+            <div>
+              <div className="flex text-white text-2xl md:text-3xl p-[10px] md:p-[20px] mx-auto md:self-center">
+                🛠️ About my tech expertise
+              </div>
+              <br />
+            
             <ul className="list-disc marker:text-white pl-5 pb-10 text-base md:text-lg">
               <li>Senior Consultant at Wipro with 5 years' experience of ETL development using Ab Initio ETL tool serving a top Indonesian client in the telecom sector</li>
               <li>Proficient in cloud tech like AWS, GCP</li>
@@ -53,6 +58,7 @@ function App() {
               <li>Integrated GenAI applications (Gemini, Claude, ChatGPT) to automate workflows and streamline processes</li>
               <li>Built an AI Gadgets Marketplace (<a href="https://aigadgets.show/">aigadgets.show</a>)</li>
             </ul>
+            </div>
           </div>
         </main >
 
