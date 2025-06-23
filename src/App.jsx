@@ -41,7 +41,7 @@ function App() {
         <main>
           <div className="flex flex-col justify-center items-center p-5 md:p-[40px] text-white">
             <div>
-              <div className="flex text-white text-2xl md:text-3xl p-[10px] md:p-[20px] mx-auto md:self-center">
+              <div className="flex text-white text-xl md:text-2xl p-[10px] md:p-[20px] mx-auto md:self-center">
                 🛠️ About my tech expertise
               </div>
               <br />
