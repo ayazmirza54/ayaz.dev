@@ -13,16 +13,18 @@ body{
   margin: 1rem; /* Smaller margin for mobile */
   background-color: #1a1b26;
   border: 2px solid #565f89;
-  font-family: 'Connection', sans-serif;
+  font-family: 'Space Mono', sans-serif;
   
 }
-
 .hero{
   font-size: 40px; /* Adjusted for mobile */
   font-weight: 900;
 }
 .site-title {
   color: #bb9af7;
+}
+.cards-projects{
+  margin-left: 40px;
 }
 .subtext{
   font-size: 20px; /* Adjusted for mobile */
@@ -52,7 +54,7 @@ body{
   text-decoration: underline;
 
 }
-main, .projects{
+main{
   font-size: 1rem;
   word-spacing: 2px;
   letter-spacing: 0.5px; /* Adjusted for mobile */
@@ -63,21 +65,45 @@ main, .projects{
   -o-text-decoration-color: #565f89;
   text-decoration-color: #565f89;
   padding: 20px 0px 20px 25px; /* Consistent padding */
+  
 }
+.projects{
+  font-size: 20px;
+  word-spacing: 2px;
+  letter-spacing: 0.5px; /* Adjusted for mobile */
+  list-style-type: disc;
+  -moz-text-decoration-color: #565f89;
+  -webkit-text-decoration-color: #565f89;
+  -ms-text-decoration-color: #565f89;
+  -o-text-decoration-color: #565f89;
+  text-decoration-color: #565f89;
+  padding: 20px 0px 20px 25px; /* Consistent padding */
+}
+.subtext-projects{
+  font-size: 32px;
+  word-spacing: 2px;
+  letter-spacing: 0.5px; /* Adjusted for mobile */
+  list-style-type: disc;
+  -moz-text-decoration-color: #565f89;
+  -webkit-text-decoration-color: #565f89;
+  -ms-text-decoration-color: #565f89;
+  -o-text-decoration-color: #565f89;
+  text-decoration-color: #565f89;
+  padding: 20px 0px 20px 25px; /* Consistent padding */
 
+}
 main{
   color: #a9b1d6;
-}
-
-.projects{
-  color: #c0caf5;
-  padding-left: 25px;
 }
 
 ul>li::marker{
   color: #565f89;
  
 }
+.projects{
+  color: #ffffff;
+}
+
 @media (max-width: 768px) {
   main{
     padding-bottom: 20px;
@@ -99,4 +125,29 @@ ul>li::marker{
     letter-spacing: 1px;
     padding-left: 40px;
   }
+}
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #a9b1d6;
+  text-decoration: none;
+  transition: color 0.3s, background 0.3s;
+  border-radius: 6px;
+  padding: 2px 8px;
+}
+.project-link:hover {
+  color: #7aa2f7;
+  background: linear-gradient(90deg, #24283b 0%, #565f89 100%);
+  box-shadow: 0 2px 8px 0 #24283b44;
+  text-decoration: none;
+}
+.project-icon {
+  margin-right: 6px;
+  vertical-align: middle;
+  color: #bb9af7;
+  transition: color 0.3s;
+}
+.project-link:hover .project-icon {
+  color: #7aa2f7;
 }

@@ -1,7 +1,5 @@
 import './App.css'
-import { FileDown, Github, Linkedin } from 'lucide-react'
-import { FaDev } from 'react-icons/fa6'
-
+import { FileDown, Github, Linkedin, Globe, Brain, Terminal, Wrench, ShoppingBag, Search, FileText } from 'lucide-react'
 function App() {
 
   const handleDownload = () => {
@@ -19,6 +17,13 @@ function App() {
     document.body.removeChild(link);
 
   }
+  const links = [
+    { title: "email", href: "mailto:hey@nexxel.dev" },
+    { title: "x.com", href: "https://x.com/nexxeln" },
+    { title: "github", href: "https://github.com/nexxeln" },
+    { title: "linkedin", href: "https://www.linkedin.com/in/shoubhit-dash" },
+    { title: "book a call", href: "https://cal.com/nexxel" },
+  ]
   return (
     <>
       <div className="container bg-[#17181c]">
@@ -45,23 +50,41 @@ function App() {
                 🛠️ About my tech expertise
               </div>
               <br />
-            
-            <ul className="list-disc marker:text-white pl-5 pb-10 text-base md:text-lg">
-              <li>Senior Consultant at Wipro with 5 years' experience of ETL development using Ab Initio ETL tool serving a top Indonesian client in the telecom sector</li>
-              <li>Proficient in cloud tech like AWS, GCP</li>
-              <li>Crafted SQL queries that turn raw data into crystal-clear insights — fast, efficient, and detailed.</li>
-              <li>Expert in server automation using Ansible, Shell scripts and Python</li>
-              <li>Implemented Prometheus, Node Exporter, and Grafana to track system performance and catch issues early.</li>
-              <li>Creator of GenAI applicaitons like Gen-a-Email, QuerySmith, UnixBot and automation tools like AnsibleBot, CurlBot, Shellbot</li>
-              <li>Developed a Python TUI EC2 manager and one-click CI/CD pipelines</li>
-              <li>Full-stack web developer using React (frontend) &amp; Express (backend)</li>
-              <li>Integrated GenAI applications (Gemini, Claude, ChatGPT) to automate workflows and streamline processes</li>
-              <li>Built an AI Gadgets Marketplace (<a href="https://aigadgets.show/">aigadgets.show</a>)</li>
-            </ul>
+
+              <ul className="list-disc marker:text-white pl-5 pb-10 text-base md:text-lg">
+                <li>Senior Consultant at Wipro with 5 years' experience of ETL development using Ab Initio ETL tool serving a top Indonesian client in the telecom sector</li>
+                <li>Proficient in cloud tech like AWS, GCP</li>
+                <li>Crafted SQL queries that turn raw data into crystal-clear insights — fast, efficient, and detailed.</li>
+                <li>Expert in server automation using Ansible, Shell scripts and Python</li>
+                <li>Implemented Prometheus, Node Exporter, and Grafana to track system performance and catch issues early.</li>
+                <li>Creator of GenAI applicaitons like Gen-a-Email, QuerySmith, UnixBot and automation tools like AnsibleBot, CurlBot, Shellbot</li>
+                <li>Developed a Python TUI EC2 manager and one-click CI/CD pipelines</li>
+                <li>Full-stack web developer using React (frontend) &amp; Express (backend)</li>
+                <li>Integrated GenAI applications (Gemini, Claude, ChatGPT) to automate workflows and streamline processes</li>
+                <li>Built an AI Gadgets Marketplace (<a href="https://aigadgets.show/">aigadgets.show</a>)</li>
+              </ul>
             </div>
           </div>
         </main >
+        <section>
+          <div className='flex flex-col p-5 md:p-[40px] text-white border-t-2 border-[#565f89] '>
+            <div className="flex subtext-projects text-white text-xl md:text-3xl">
+              🚀 Projects
 
+            </div>
+            <ul className="projects list-disc marker:text-white pl-5 pb-10">
+              <li><a href="https://websearchai.streamlit.app/" target="_blank" rel="noopener noreferrer" className="project-link"><Globe className="project-icon" size={18} /> WebSearchAI</a></li>
+              <li><a href="https://intellisketch.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-link"><Brain className="project-icon" size={18} /> Intellisketch</a></li>
+              <li><a href="https://unix-bot.streamlit.app/" target="_blank" rel="noopener noreferrer" className="project-link"><Terminal className="project-icon" size={18} /> UnixBot</a></li>
+              <li><a href="https://github.com/ayazmirza54/ec2-manager-tui" target="_blank" rel="noopener noreferrer" className="project-link"><Github className="project-icon" size={18} /> EC2 Manager TUI</a></li>
+              <li><a href="https://devopslab.streamlit.app/" target="_blank" rel="noopener noreferrer" className="project-link"><Wrench className="project-icon" size={18} /> DevOpsLab</a></li>
+              <li><a href="https://aigadgets.show/" target="_blank" rel="noopener noreferrer" className="project-link"><ShoppingBag className="project-icon" size={18} /> AI Gadgets Marketplace</a></li>
+              <li><a href="https://query-smith.streamlit.app/" target="_blank" rel="noopener noreferrer" className="project-link"><Search className="project-icon" size={18} /> QuerySmith</a></li>
+              <li><a href="https://texttocontent.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-link"><FileText className="project-icon" size={18} />Text-to-Content AI</a></li>
+            </ul>
+          </div>
+
+        </section>
 
       </div >
     </>
