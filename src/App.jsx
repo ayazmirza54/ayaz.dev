@@ -27,7 +27,8 @@ function App() {
       <div className="container bg-[#17181c]">
         <header> <div className="flex flex-col">
           <div>&nbsp;</div>
-          <div className="text-white site-title mx-4 hero p-[10px] md:p-[20px] border-white border-b border-white self-center md:self-center">ayaz.info</div>
+          <div className="text-white site-title mx-4 hero p-[10px] md:p-[20px] border-white border-b border-white self-center md:self-center">ayaz.gpt</div>
+          <div className="text-white text-[20px] p-[10px] md:p-[20px] text-center">Grind. Plan. Tinker.</div>
           <div className='text-white subtext mx-4 p-[10px] md:p-[20px] border-white text-center'>Senior Consultant, Wipro Ltd.</div>
           <div className="text-white subtext p-[10px] md:p-[20px] text-center">Lucknow, IND</div>
           <br></br>
