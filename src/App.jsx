@@ -43,20 +43,20 @@ function App() {
         </header>
         <main>
           <div className="flex flex-col items-start p-5 md:p-[40px] text-white">
+          <div className="text-white text-[20px] p-[10px] md:p-[20px] text-center">About my tech expertise</div>
             <ul className="list-disc marker:text-white pl-5 pb-10 text-base md:text-lg">
-              <li>Senior Consultant at Wipro with 5 years' experience in the telecom sector</li>
-              <li>Proficient in Ansible, shell scripting, AWS, Prometheus &amp; Grafana</li>
-              <li>Creator of AI-powered tools (Gen-a-Email, AnsibleBot, CurlBot)</li>
+              <li>Senior Consultant at Wipro with 5 years' experience of ETL development using Ab Initio ETL tool serving a top Indonesian client in the telecom sector</li>
+              <li>Proficient in cloud tech like AWS, GCP</li>
+              <li>Crafted SQL queries that turn raw data into crystal-clear insights — fast, efficient, and detailed.</li>
+              <li>Expert in server automation using Ansible, Shell scripts and Python</li>
+              <li>Implemented Prometheus, Node Exporter, and Grafana to track system performance and catch issues early.</li>
+              <li>Creator of GenAI applicaitons like Gen-a-Email, QuerySmith, UnixBot and automation tools like AnsibleBot, CurlBot, Shellbot</li>
               <li>Developed a Python TUI EC2 manager and one-click CI/CD pipelines</li>
               <li>Full-stack web developer using React (frontend) &amp; Express (backend)</li>
               <li>Integrated GenAI applications (Gemini, Claude, ChatGPT) to automate workflows and streamline processes</li>
               <li>Built an AI Gadgets Marketplace (<a href="https://aigadgets.show/">aigadgets.show</a>)</li>
-             
-
-
             </ul>
           </div>
-
         </main >
 
 
